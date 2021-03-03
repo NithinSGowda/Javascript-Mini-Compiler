@@ -48,7 +48,7 @@ for: T_FOR '(' list ';' list ';' list ')' statement;
 
 do: T_DO '{' seqOfStmts '}';
 
-while: T_WHILE '(' expression ')' terminator;
+while: T_WHILE '(' expression ')' terminator seqOfStmts;
 
 %%
 
